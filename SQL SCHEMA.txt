@@ -1,0 +1,5 @@
+create table admin(id int,admin varchar(255),password varchar(255));
+create table medicines(id int,medicineName varchar(255),medicinetype varchar(255), expdate varchar(255),manufacture_date varchar(255), price int,description varchar(45),status varchar(45),seller varchar(45),stock int);
+create table user(id int, fname varchar(20), uname varchar(30),lname varchar(20),mobile varchar(45),pass varchar(20),age int);
+create table cart(id int, name varchar(45),price int, description varchar(45));
+create table contactus(id int, name varchar(45), email varchar(45),contact int,desciption varchar(30));
